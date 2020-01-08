@@ -1,0 +1,14 @@
+#jdbc:
+#   driverClassName: com.mysql.jdbc.Driver
+#   url: jdbc:mysql://127.0.0.1:3306/spring1
+#   username: root
+#   password: root
+server:
+  port: 80
+spring:
+  datasource:
+    hikari:
+      driver-class-name: com.mysql.jdbc.Driver
+      jdbc-url: jdbc:mysql:///spring1
+      username: root
+      password: root
